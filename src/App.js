@@ -7,12 +7,13 @@ function App() {
 const dispatch = useDispatch();
 
   const increment = () => {
-    dispatch({type:'INC'});
+    dispatch({type:"INC"});
+  }
+
+  const decrement = () => {
+    dispatch({type:"DEC"});
   }
   
-  const decrement = () => {
-
-  }
   return (
     <div >
       <h1>Counter App</h1>
